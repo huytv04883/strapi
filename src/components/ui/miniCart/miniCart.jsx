@@ -8,7 +8,7 @@ const MiniCart = ({ count }) => {
     <>
       {count ? (
         <Link to="/cart">
-          <ButtonMiniCart>Cart: 1  {count}</ButtonMiniCart>
+          <ButtonMiniCart>Cart: 31  {count}</ButtonMiniCart>
         </Link>
       ) : null}
     </>
